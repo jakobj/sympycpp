@@ -1,5 +1,5 @@
-#ifndef LEXER_H
-#define LEXER_H
+#ifndef SYMPYCPP_LEXER_H
+#define SYMPYCPP_LEXER_H
 
 #include <set>
 #include <string>

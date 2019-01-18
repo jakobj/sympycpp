@@ -1,5 +1,5 @@
-#ifndef PARSER_H
-#define PARSER_H
+#ifndef SYMPYCPP_PARSER_H
+#define SYMPYCPP_PARSER_H
 
 #include <cmath>
 #include <cassert>

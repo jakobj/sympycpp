@@ -5,7 +5,7 @@ set( headers
   functions.h
   lexer.h
   node.h
-  parser.h
+  sympycpp_parser.h
   token.h )
 
 install( FILES ${headers}

@@ -1,5 +1,5 @@
-#ifndef FUNCTIONS_H
-#define FUNCTIONS_H
+#ifndef SYMPYCPP_FUNCTIONS_H
+#define SYMPYCPP_FUNCTIONS_H
 
 namespace sympycpp
 {

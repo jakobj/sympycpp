@@ -1,5 +1,5 @@
-#ifndef FACTORIES_H
-#define FACTORIES_H
+#ifndef SYMPYCPP_FACTORIES_H
+#define SYMPYCPP_FACTORIES_H
 
 #include <memory>
 #include <vector>

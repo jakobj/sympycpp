@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "parser.h"
+#include "sympycpp_parser.h"
 
 #include "factories.h"
 #include "functions.h"

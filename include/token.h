@@ -1,5 +1,5 @@
-#ifndef TOKEN_H
-#define TOKEN_H
+#ifndef SYMPYCPP_TOKEN_H
+#define SYMPYCPP_TOKEN_H
 
 #include <string>
 

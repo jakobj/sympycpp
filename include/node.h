@@ -1,5 +1,5 @@
-#ifndef NODE_H
-#define NODE_H
+#ifndef SYMPYCPP_NODE_H
+#define SYMPYCPP_NODE_H
 
 #include <functional>
 #include <memory>
