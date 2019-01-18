@@ -14,8 +14,8 @@ class Lexer
 {
 private:
 
-  const std::set< char > _ignored = { ' ' };
-  const std::set< char > _separators = { ',', '(', ')' };
+  static const std::set< char > _ignored;
+  static const std::set< char > _separators;
   std::set< std::string > _operators;
 
   Token _tokenize_value( const std::string value )
@@ -82,6 +82,9 @@ public:
   }
 
 };
+
+const std::set< char > Lexer::_ignored = { ' ' };
+const std::set< char > Lexer::_separators = { ',', '(', ')' };
 
 }
 

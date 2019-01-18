@@ -24,7 +24,7 @@ class Parser
 private:
 
   // maches symbols in literals
-  const std::string str_regex_symbol = "'x_[0-9]+'";
+  static const std::string str_regex_symbol;
 
   // stores regular expressions to match literals to factories for
   // correspondng literal nodes
@@ -79,6 +79,8 @@ public:
   void parse( const std::string expr, const size_t n_inputs );
   double eval( const std::vector< double >& inputs );
 };
+
+const std::string Parser::str_regex_symbol = "'x_[0-9]+'";
 
 }
 
